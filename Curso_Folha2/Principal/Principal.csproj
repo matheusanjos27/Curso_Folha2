@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarrosApp\CarrosApp.csproj" />
+    <ProjectReference Include="..\CursoApp\CursoApp.csproj" />
+    <ProjectReference Include="..\DadosApp\DadosApp.csproj" />
+    <ProjectReference Include="..\PessoaApp\PessoaApp.csproj" />
+    <ProjectReference Include="..\TurmaApp\TurmaApp.csproj" />
+  </ItemGroup>
+
+</Project>
